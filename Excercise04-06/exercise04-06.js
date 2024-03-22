@@ -4,12 +4,12 @@
 console.log(`Rumi said,"Where there is ruin, there is hope for treasure."`);
 //5.Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
 let famous_person = "Rumi";
-let message = "Where there is ruin, there is hope for treasure.";
-console.log(`${famous_person} said,"${message}"`);
+let message = `${famous_person} said, "Where there is ruin, there is hope for treasure."`;
+console.log(message);
 //6.Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
 let perName = "\tAsha  ";
 console.log(perName);
 console.log(perName.trim());
-let perName2 = "\nAsha  ";
+let perName2 = "\n\tAsha\t\n";
 console.log(perName2);
 console.log(perName2.trim());
